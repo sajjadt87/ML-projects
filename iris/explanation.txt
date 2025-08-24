@@ -1,0 +1,31 @@
+🌸 The Iris Dataset
+
+The Iris dataset is one of the most famous datasets in machine learning. It contains information about 150 flowers of the Iris species,
+ divided into 3 different classes and contains 150 samples.
+
+🔹 Features (measurements of each flower):
+
+Sepal length (in cm) – the length of the outer part of the flower.
+
+Sepal width (in cm) – the width of the outer part of the flower.
+
+Petal length (in cm) – the length of the inner petals.
+
+Petal width (in cm) – the width of the inner petals.
+
+Each flower is described by these 4 numerical features.
+
+🔹 Labels (target classes):
+
+0 → Iris Setosa
+Small flowers, usually clearly separated from the other species.
+
+1 → Iris Versicolor
+Medium-sized flowers, somewhat between Setosa and Virginica.
+
+2 → Iris Virginica
+Larger flowers, often overlapping with Versicolor in measurements.
+
+So the task is usually a classification problem: given the 4 features, predict which species the flower belongs to.
+
+This file does not have a dataser folder because the data set is imported from sklearn.datasets
