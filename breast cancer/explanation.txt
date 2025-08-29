@@ -1,0 +1,16 @@
+The Breast Cancer Wisconsin dataset is a well-known dataset included in scikit-learn, commonly used for binary classification tasks.
+It contains 569 samples of breast cancer tumors, each described by 30 numerical features that are computed from digitized images of fine needle aspirates (FNA) of breast masses.
+
+Features (X):
+These are real-valued measurements that describe characteristics of the cell nuclei, such as size, texture, smoothness, compactness, concavity, symmetry, and fractal dimension.
+Each of these measurements has three versions: mean, standard error, and "worst" (largest value).
+
+Target (y):
+The dataset is labeled with two classes:
+
+0: malignant (cancerous tumor)
+
+1: benign (non-cancerous tumor)
+
+Goal:
+The objective is to build a machine learning model that can accurately classify tumors as malignant or benign based on these features.
