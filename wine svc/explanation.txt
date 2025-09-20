@@ -1,0 +1,5 @@
+Hello every body,we are going to have this perfect project together after along term so let us see what it is,
+This project is a classification as well like the last projects we are going to use support vector machines 
+to complete this project.we will load the data from sklearn and This dataset contains chemical analysis results of
+wines from three different cultivars. It has 13 numeric features, such as alcohol content, malic acid, and color intensity,
+used to classify each wine into one of three classes. 
