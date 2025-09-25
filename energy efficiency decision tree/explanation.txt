@@ -1,0 +1,46 @@
+Energy Efficiency (ENB2012) — concise, technical overview
+
+Short summary.
+The Energy Efficiency dataset (often distributed as ENB2012_data.xlsx) contains simulated building designs and their corresponding Heating Load (Y1) and Cooling Load (Y2). It is commonly used for regression experiments (single-target or multi-output) and is a good testbed for tree-based regressors because the relationship between building features and loads is nonlinear with threshold/discrete effects. 
+UCI Machine Learning Repository
+
+Origin & how it was generated
+
+The data were created by simulating 12 different building shapes in building-energy software (Ecotect) while varying glazing, glazing distribution, orientation and other geometric characteristics. This produced 768 simulated building cases. The dataset was published by Tsanas & Xifara (2012) and is hosted in the UCI Machine Learning Repository. 
+UCI Machine Learning Repository
+
+Structure — features and targets
+
+Rows (samples): 768. 
+UCI Machine Learning Repository
+
+Features (X1 → X8): eight input variables describing building geometry and glazing:
+
+X1 — Relative Compactness (continuous)
+
+X2 — Surface Area (continuous)
+
+X3 — Wall Area (continuous)
+
+X4 — Roof Area (continuous)
+
+X5 — Overall Height (continuous)
+
+X6 — Orientation (integer / discrete code representing cardinal orientation)
+
+X7 — Glazing Area (continuous)
+
+X8 — Glazing Area Distribution (integer / discrete code)
+(Names and ordering follow the dataset metadata.) 
+Kaggle
++1
+
+Targets (responses):
+
+Y1 — Heating Load (continuous)
+
+Y2 — Cooling Load (continuous)
+You can model each target separately (two single-target regressors) or jointly with a multi-output regressor. 
+UCI Machine Learning Repository
+
+Data quality: there are no missing values reported in the UCI description (all features / targets populated).
