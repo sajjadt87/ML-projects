@@ -1,0 +1,35 @@
+This is an absolute different project using spotify dataset in which we are determend to teach you different kinds of ensemble models
+
+Purpose: To predict whether a Spotify user will churn (cancel subscription) or remain active.
+
+Rows: Each row represents a unique Spotify user.
+
+Columns (Features):
+
+user_id → Unique identifier for each user
+
+gender → User gender (Male/Female/Other)
+
+age → User age
+
+country → User location
+
+subscription_type → Type of Spotify subscription (Free, Premium, Family, Student)
+
+listening_time → Minutes spent listening per day
+
+songs_played_per_day → Number of songs played daily
+
+skip_rate → Percentage of songs skipped
+
+device_type → Device used (Mobile, Desktop, Web)
+
+ads_listened_per_week → Number of ads heard per week
+
+offline_listening → Offline mode usage
+
+is_churned → Target variable (0 = Active, 1 = Churned)
+
+Dataset Type: Mixed (numeric + categorical)
+
+Use Case: Build machine learning models to predict user churn, analyze engagement patterns, and help Spotify reduce cancellations.
