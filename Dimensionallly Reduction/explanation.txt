@@ -1,0 +1,8 @@
+Context
+
+This dataset was created to work on various techniques like Dimensionality reduction, Statistical Inference and Classification.
+Content
+
+230 rows and 537 columns of numerical data including labels
+
+We are going to use this dataset for dimensionally reduction
